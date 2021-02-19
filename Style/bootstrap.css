@@ -2886,8 +2886,8 @@ fieldset:disabled a.btn {
 
 .btn-outline-secondary:hover {
   color: #fff;
-  background-color: #6ccad8;
-  border-color: #6ccad8;
+  background-color: #6c757d;
+  border-color: #6c757d;
 }
 
 .btn-outline-secondary:focus, .btn-outline-secondary.focus {
@@ -2895,15 +2895,15 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-secondary.disabled, .btn-outline-secondary:disabled {
-  color: #6ccad8;
+  color: #6c757d;
   background-color: transparent;
 }
 
 .btn-outline-secondary:not(:disabled):not(.disabled):active, .btn-outline-secondary:not(:disabled):not(.disabled).active,
 .show > .btn-outline-secondary.dropdown-toggle {
   color: #fff;
-  background-color: #6ccad8;
-  border-color: #6ccad8;
+  background-color: #6c757d;
+  border-color: #6c757d;
 }
 
 .btn-outline-secondary:not(:disabled):not(.disabled):active:focus, .btn-outline-secondary:not(:disabled):not(.disabled).active:focus,
@@ -3567,7 +3567,7 @@ input[type="button"].btn-block {
   -ms-flex-align: stretch;
   align-items: stretch;
   width: 100%;
-  margin-top: 6px;
+  margin-top: 8px;                                                  /*fontos lehet*/
 }
 
 .input-group > .form-control,
@@ -10306,13 +10306,20 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
-.logoSzoveg{
-  font-size: 20px;
-  font-family: 'Brush Script MT', cursive;
+.footerIcons{
+  font-size: 30px;
 }
 .search-bar{
   position:relative;
   width:100%;
+}
+.itemColor{
+  color:white;
+}
+.itemColor:hover{
+  color:#51c3d4;
+  text-shadow: 1px 1px 5px;
+  transition: all 0.3s;
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
