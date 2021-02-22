@@ -1,0 +1,15 @@
+.footerIcons{
+    font-size: 20px;
+  }
+  .search-bar{
+    position:relative;
+    width:100%;
+  }
+  .itemColor{
+    color:white;
+  }
+  .itemColor:hover{
+    color:#51c3d4;
+    text-shadow: 1px 1px 5px;
+    transition: all 0.3s;
+  }

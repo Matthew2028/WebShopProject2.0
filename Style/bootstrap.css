@@ -10306,20 +10306,6 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
-.footerIcons{
-  font-size: 30px;
-}
-.search-bar{
-  position:relative;
-  width:100%;
-}
-.itemColor{
-  color:white;
-}
-.itemColor:hover{
-  color:#51c3d4;
-  text-shadow: 1px 1px 5px;
-  transition: all 0.3s;
-}
+
 
 /*# sourceMappingURL=bootstrap.css.map */
