@@ -13,3 +13,17 @@
     text-shadow: 1px 1px 5px;
     transition: all 0.3s;
   }
+  .games{
+    margin: 20px 5px;
+    text-align: center;
+    height: 280px;
+    background-color:red;
+  }
+  .gameImages{
+    width: 190px;
+    height: 190px;
+  }
+  .footerThings{
+    margin: 10px 3px;
+    text-align: center;
+  }
