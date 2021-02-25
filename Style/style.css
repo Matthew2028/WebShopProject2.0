@@ -14,16 +14,114 @@
     transition: all 0.3s;
   }
   .games{
-    margin: 20px 5px;
+    margin: 45px 5px;
     text-align: center;
-    height: 280px;
-    background-color:red;
+    height: 390px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 15px;
+    box-shadow: 3px 3px 2px;
+    transition: 1s ease;
+  }
+  .games:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    box-shadow: 10px 10px 5px;
+    border-radius: 50px;
+    background-color: rgb(244, 255, 244);
+    transition: 1s ease;
+  }
+  .games a{
+    color:black
   }
   .gameImages{
-    width: 190px;
-    height: 190px;
+    margin-top:30px;
+    width: 220px;
+    height: 220px;
+    transition: 1.3s ease;
+  }
+  .gameImages:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1.3s ease;
+  }
+  .gameImages2{
+    margin-top:30px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 180px;
+    transition: 1.3s;
+  }
+  .gameImages2:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.15);
+    transition: 1.3s ease;
+  }
+  .xboxlinks{
+    color:black;
+    transition: 1s ease;
+  }
+  .xboxlinks:hover{
+    color:rgb(4, 175, 4);
+    text-shadow: 3px 3px 5px rgb(4, 175, 4);
+    transition: 1s ease;
+  }
+  .pslinks{
+    color:black;
+    transition: 1s ease;
+  }
+  .pslinks:hover{
+    color:rgb(24, 104, 150);
+    text-shadow: 3px 3px 5px rgb(24, 104, 150);
+    transition: 1s ease;
+  }
+  .nintendolinks{
+    color:black;
+    transition: 1s ease;
+  }
+  .nintendolinks:hover{
+    color:rgb(233, 12, 12);
+    text-shadow: 3px 3px 5px rgb(233, 12, 12);
+    transition: 1s ease;
+  }
+  .pclinks{
+    color:black;
+    transition: 1s ease;
+  }
+  .pclinks:hover{
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+    transition: 1s ease;
+  }
+  .btn-cart{
+    color:rgb(255, 255, 255);
+    background-color:rgb(116, 116, 116);
+    transition: 0.5s;
+  }
+  .btn-cart:hover{
+    color:rgb(42, 209, 201);
+    border-radius: 100%;
+    transition: all 0.5s ease;
+  }
+  .btn-cart-xbox{
+    color:rgb(255, 255, 255);
+    background-color:rgb(24, 129, 24);
+    transition: 0.7s;
+  }
+  .btn-cart-xbox:hover{
+    color:rgb(24, 129, 24);
+    background-color: rgb(167, 252, 167);
+    transition: all 0.7s ease;
+  }
+  .backGroundImg{
+    background-image: url(..//Images/wallpaper1.png);
+  }
+  .navSticky{
+    position: sticky;
   }
   .footerThings{
     margin: 10px 3px;
     text-align: center;
   }
+  
