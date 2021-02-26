@@ -49,7 +49,7 @@
   .gameImages2{
     margin-top:30px;
     margin-bottom: 20px;
-    width: 150px;
+    width: 140px;
     height: 180px;
     transition: 1.3s;
   }
@@ -57,6 +57,70 @@
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.15);
+    transition: 1.3s ease;
+  }
+  .gameImagesXbox{
+    margin-top:30px;
+    margin-bottom: 20px;
+    width: 140px;
+    height: 180px;
+    transition: 1.3s;
+  }
+  .gameImagesXbox:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.15);
+    -moz-box-shadow: 3px 4px 3px rgb(57, 206, 77);
+    -webkit-box-shadow: 3px 4px 3px rgb(57, 206, 77);
+    box-shadow: 3px 4px 3px rgb(57, 206, 77);
+    transition: 1.3s ease;
+  }
+  .gameImagesPlayStation{
+    margin-top:30px;
+    margin-bottom: 20px;
+    width: 140px;
+    height: 180px;
+    transition: 1.3s;
+  }
+  .gameImagesPlayStation:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.15);
+    -moz-box-shadow: 3px 4px 3px rgb(57, 127, 206);
+    -webkit-box-shadow: 3px 4px 3px rgb(57, 127, 206);
+    box-shadow: 3px 4px 3px rgb(57, 127, 206);
+    transition: 1.3s ease;
+  }
+  .gameImagesPc{
+    margin-top:30px;
+    margin-bottom: 20px;
+    width: 140px;
+    height: 180px;
+    transition: 1.3s;
+  }
+  .gameImagesPc:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.15);
+    -moz-box-shadow: 3px 4px 3px rgb(54, 54, 54);
+    -webkit-box-shadow: 3px 4px 3px rgb(54, 54, 54);
+    box-shadow: 3px 4px 3px rgb(54, 54, 54);
+    transition: 1.3s ease;
+  }
+  .gameImagesNintendo{
+    margin-top:30px;
+    margin-bottom: 20px;
+    width: 110px;
+    height: 180px;
+    transition: 1.3s;
+  }
+  .gameImagesNintendo:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.15);
+    -moz-box-shadow: 3px 4px 3px rgb(248, 86, 86);
+    -webkit-box-shadow: 3px 4px 3px rgb(248, 86, 86);
+    box-shadow: 3px 4px 3px rgb(248, 86, 86);
     transition: 1.3s ease;
   }
   .xboxlinks{
@@ -101,21 +165,53 @@
   }
   .btn-cart:hover{
     color:rgb(42, 209, 201);
-    border-radius: 100%;
     transition: all 0.5s ease;
   }
   .btn-cart-xbox{
     color:rgb(255, 255, 255);
     background-color:rgb(24, 129, 24);
-    transition: 0.7s;
+    transition: 0.5s;
   }
   .btn-cart-xbox:hover{
     color:rgb(24, 129, 24);
-    background-color: rgb(167, 252, 167);
-    transition: all 0.7s ease;
+    background-color: rgb(154, 240, 154);
+    transition: all 0.5s ease;
+  }
+  .btn-cart-ps{
+    color:rgb(255, 255, 255);
+    background-color:rgb(20, 80, 150);
+    transition: 0.5s;
+  }
+  .btn-cart-ps:hover{
+    color:rgb(20, 80, 150);
+    background-color: rgb(164, 201, 243);
+    transition: all 0.5s ease;
+  }
+  .btn-cart-pc{
+    color:rgb(255, 255, 255);
+    background-color:rgb(37, 37, 37);
+    transition: 0.5s;
+  }
+  .btn-cart-pc:hover{
+    color:rgb(26, 26, 26);
+    background-color:rgb(194, 194, 194);
+    transition: all 0.5s ease;
+  }
+  .btn-cart-nintendo{
+    color:rgb(255, 255, 255);
+    background-color:rgb(204, 38, 38);
+    transition: 0.5s;
+  }
+  .btn-cart-nintendo:hover{
+    color:rgb(212, 2, 2);
+    background-color:rgb(226, 137, 137);
+    transition: all 0.5s ease;
   }
   .backGroundImg{
     background-image: url(..//Images/wallpaper1.png);
+  }
+  .loginBackGroundImage{
+    background-image: url(..//Images/wallpaper2.jpg);
   }
   .navSticky{
     position: sticky;
@@ -124,4 +220,15 @@
     margin: 10px 3px;
     text-align: center;
   }
-  
+  .loginForm{
+    margin: 40px;
+  }
+  .loginImg{
+    margin:20px 20px;
+    border-radius: 15%;
+    transition: 0.4s ease;
+  }
+  .loginImg:hover{
+    box-shadow: 3px 3px 6px;
+    transition: 0.4s ease;
+  }
