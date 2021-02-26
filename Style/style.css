@@ -13,7 +13,7 @@
     text-shadow: 1px 1px 5px;
     transition: all 0.3s;
   }
-  .games{
+  .gamesNintendo{
     margin: 45px 5px;
     text-align: center;
     height: 390px;
@@ -22,17 +22,80 @@
     box-shadow: 3px 3px 2px;
     transition: 1s ease;
   }
-  .games:hover{
+  .gamesNintendo:hover{
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
     box-shadow: 10px 10px 5px;
     border-radius: 50px;
-    background-color: rgb(244, 255, 244);
+    background-color: rgb(235, 168, 168);
     transition: 1s ease;
   }
-  .games a{
+  .gamesXbox{
+    margin: 45px 5px;
+    text-align: center;
+    height: 390px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 15px;
+    box-shadow: 3px 3px 2px;
+    transition: 1s ease;
+  }
+  .gamesXbox:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    box-shadow: 10px 10px 5px;
+    border-radius: 50px;
+    background-color: rgb(154, 230, 158);
+    transition: 1s ease;
+  }
+  .gamesPlaystation{
+    margin: 45px 5px;
+    text-align: center;
+    height: 390px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 15px;
+    box-shadow: 3px 3px 2px;
+    transition: 1s ease;
+  }
+  .gamesPlaystation:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    box-shadow: 10px 10px 5px;
+    border-radius: 50px;
+    background-color: rgb(188, 198, 224);
+    transition: 1s ease;
+  }
+  .gamesPc{
+    margin: 45px 5px;
+    text-align: center;
+    height: 390px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 15px;
+    box-shadow: 3px 3px 2px;
+    transition: 1s ease;
+  }
+  .gamesPc:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    box-shadow: 10px 10px 5px;
+    border-radius: 50px;
+    background-color: rgb(184, 184, 184);
+    transition: 1s ease;
+  }
+  .gamesPc a{
     color:black
+  }
+  .gamesPlaystation a{
+    color: black;
+  }
+  .gamesXbox a{
+    color: black;
+  }
+  .gamesNintendo a{
+    color:black;
   }
   .gameImages{
     margin-top:30px;
@@ -174,7 +237,7 @@
   }
   .btn-cart-xbox:hover{
     color:rgb(24, 129, 24);
-    background-color: rgb(154, 240, 154);
+    background-color: rgb(81, 226, 81);
     transition: all 0.5s ease;
   }
   .btn-cart-ps{
@@ -184,7 +247,7 @@
   }
   .btn-cart-ps:hover{
     color:rgb(20, 80, 150);
-    background-color: rgb(164, 201, 243);
+    background-color: rgb(109, 168, 236);
     transition: all 0.5s ease;
   }
   .btn-cart-pc{
@@ -194,7 +257,7 @@
   }
   .btn-cart-pc:hover{
     color:rgb(26, 26, 26);
-    background-color:rgb(194, 194, 194);
+    background-color:rgb(124, 122, 122);
     transition: all 0.5s ease;
   }
   .btn-cart-nintendo{
@@ -204,11 +267,23 @@
   }
   .btn-cart-nintendo:hover{
     color:rgb(212, 2, 2);
-    background-color:rgb(226, 137, 137);
+    background-color:rgb(218, 111, 111);
     transition: all 0.5s ease;
   }
   .backGroundImg{
     background-image: url(..//Images/wallpaper1.png);
+  }
+  .backGroundImgNintendo{
+    background-image: url(..//Images/nintendoBackGround.png);
+  }
+  .backGroundImgXbox{
+    background-image: url(..//Images/xboxBackGround.png);
+  }
+  .backGroundImgPlaystation{
+    background-image: url(../Images/playstationBackGround.png);
+  }
+  .backGroundImgPc{
+    background-image: url(../Images/PcBackGround.png);
   }
   .loginBackGroundImage{
     background-image: url(..//Images/wallpaper2.jpg);
@@ -220,9 +295,7 @@
     margin: 10px 3px;
     text-align: center;
   }
-  .loginForm{
-    margin: 40px;
-  }
+
   .loginImg{
     margin:20px 20px;
     border-radius: 15%;

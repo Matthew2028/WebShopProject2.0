@@ -4249,7 +4249,7 @@ input[type="button"].btn-block {
 }
 
 .nav-link:hover, .nav-link:focus {
-  text-decoration: underline;
+  text-decoration:solid;
   text-shadow:1px 1px 5px;
 }
 
@@ -4300,7 +4300,7 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #007bff;
+  background-color: #949494;
 }
 
 .nav-fill > .nav-link,
@@ -4722,7 +4722,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {           /*Itt alakítottam rajta!!*/
-  color: #6ccad8;
+  color: #3bcad4;
   transition: color 0.6s;
 }
 
@@ -6787,7 +6787,7 @@ button.bg-success:focus {
 }
 
 .bg-info {
-  background-color: #111111 !important;
+  background-color: #383838 !important;
 }
 
 a.bg-info:hover, a.bg-info:focus,
