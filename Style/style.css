@@ -305,3 +305,15 @@
     box-shadow: 3px 3px 6px;
     transition: 0.4s ease;
   }
+  .registerBtn{
+    block-size: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+  }
+  .whiteBackG{
+    background-color:rgb(160, 245, 157);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    padding-left:5px;
+  }
