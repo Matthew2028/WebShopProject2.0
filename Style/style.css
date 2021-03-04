@@ -324,3 +324,34 @@
     background-color: rgb(216, 248, 210);
     border-radius: 20px;
   }
+  .product{
+    padding:50px;
+    border:2px 2px
+  }
+  .cart-info{
+    padding-top:10px;
+    padding-right: 30px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .imgSize{
+    padding-right: 20px;
+    width:130px;
+  }
+  .trClass{
+    background-color: rgb(76, 204, 204);
+  }
+  td input{
+    width:60px;
+    height: 30px;
+    padding:5px;
+  }
+  table{
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .footerCucc{
+    width: 100%;
+    bottom:0px;
+    position: absolute;
+  }
