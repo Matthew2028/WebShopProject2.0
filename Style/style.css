@@ -28,7 +28,7 @@
     transform: scale(1.2);
     box-shadow: 10px 10px 5px;
     border-radius: 50px;
-    background-color: rgb(235, 168, 168);
+    background-color: rgb(240, 190, 190);
     transition: 1s ease;
   }
   .gamesXbox{
@@ -181,7 +181,7 @@
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.15);
-    -moz-box-shadow: 3px 4px 3px rgb(248, 86, 86);
+    -moz-box-shadow: 3px 4px 3px rgb(247, 114, 114);
     -webkit-box-shadow: 3px 4px 3px rgb(248, 86, 86);
     box-shadow: 3px 4px 3px rgb(248, 86, 86);
     transition: 1.3s ease;
@@ -274,10 +274,10 @@
     background-image: url(..//Images/wallpaper1.png);
   }
   .backGroundImgNintendo{
-    background-image: url(..//Images/nintendoBackGround.png);
+    background-image: url(..//Images/nintendoBackGround2.png);
   }
   .backGroundImgXbox{
-    background-image: url(..//Images/xboxBackGround.png);
+    background-image: url(..//Images/xboxBackGround2.png);
   }
   .backGroundImgPlaystation{
     background-image: url(../Images/playstationBackGround.png);
@@ -317,9 +317,10 @@
     padding-right: 5px;
     padding-left:5px;
   }
-  .preview img{
-    position:relative;
+  .product-img{
+    border-radius: 20px;
   }
-  .parameter{
-    padding-top:70px;
+  .xboxthings{
+    background-color: rgb(216, 248, 210);
+    border-radius: 20px;
   }
