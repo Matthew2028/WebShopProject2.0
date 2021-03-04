@@ -93,11 +93,13 @@
                   <div class="content-game">
                       <div class="row no-gutters">
                           <div class="col-lg-3">
-                              <p><img src="../Images/XboxGameImages/valhalla1.jpg" width="60" alt=""></p>
-                              <p><img src="../Images/XboxGameImages/valhalla2.jpg" width="60" alt=""></p>
+                              <p><img src="../Images/XboxGameImages/valhalla1.jpg" width="100" id="img1" alt="acvalhalla"></p>
                           </div>
-                          <div class="col-lg-9 preview">
-                            <img src="../Images/Xbox/acvalhalla.jpg" width="300" alt="acvalhalla">
+                          <div class="col-lg-3">
+                            <p><img src="../Images/XboxGameImages/valhalla2.jpg" width="100" id="img2" alt="acvalhalla"></p>
+                          </div>
+                          <div class="col-lg-6 preview">
+                            <img src="../Images/Xbox/acvalhalla.jpg" class="img-fluid" width="300" id="preview" alt="acvalhalla">
                           </div>
                       </div>
                   </div>
@@ -111,7 +113,7 @@
                       </div>
                       <hr>
                       <div class="price">
-                          <h2>21 000 Ft</h2>
+                          <h2>19 000 Ft</h2>
                       </div>
                       <div class="row no-gutters">
                           <button type="button" class="btn btn-cart-xbox">Kosárba</button>
@@ -121,6 +123,21 @@
           </div>
       </div>
     </div>
+
+  <!--  <script>
+        $(document).ready(function(){
+            var img1 = $('#img1').attr('src');
+            var img2 = $('#img2').attr('src');
+            $('#img1').click(function(){
+                $('#preview').fadeOut(0);
+                $('#preview').stop().fadeIn(400).attr('src',img1);
+            });
+            $('#img2').click(function(){
+                $('#preview').fadeOut(0);
+                $('#preview').stop().fadeIn(400).attr('src',img2);
+            });
+        });
+    </script>   -->
 
 
     <footer>

@@ -311,9 +311,15 @@
     border-radius: 10px;
   }
   .whiteBackG{
-    background-color:rgb(160, 245, 157);
+    background-color:rgb(196, 243, 194);
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 5px;
     padding-left:5px;
+  }
+  .preview img{
+    position:relative;
+  }
+  .parameter{
+    padding-top:70px;
   }
