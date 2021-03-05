@@ -326,7 +326,6 @@
   }
   .product{
     padding:50px;
-    border:2px 2px
   }
   .cart-info{
     padding-top:10px;
@@ -350,8 +349,49 @@
     width: 100%;
     border-collapse: collapse;
   }
-  .footerCucc{
+  .total-price{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+  }
+  .total-price table{
+    border-top: 3px solid rgb(26, 134, 223);
     width: 100%;
-    bottom:0px;
-    position: absolute;
+    max-width: 350px;
+  }
+  .greenColor{
+    color: green;
+  }
+  .profilForm{
+    font-style: italic;
+  }
+  .szerkesztesClass{
+    font-size:25px;
+    text-decoration: underline;
+    color:black;
+  }
+  .hasonloTermek{
+    margin-top: 50px;
+    border-top:solid 5px black;
+    text-align: center;
+    color:black;
+  }
+  .aboutus h1{
+    padding-top: 20px;
+    text-align: center;
+    text-decoration: underline;
+  }
+  .aboutus img{
+    padding:30px;
+    width: 400px;
+    border-radius: 100%;
+  }
+  .aboutus p{
+    padding:30px;
+    font-size:20px;
+  }
+  .aboutus h3{
+    padding-top: 20px;
+    text-align: center;
+    text-decoration: underline;
   }
